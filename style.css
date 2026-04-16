@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f0f0f;
+    color: white;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background: purple;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.projects {
+    padding: 50px;
+    text-align: center;
+}
+
+.card {
+    background: #1c1c1c;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.about, .contact {
+    padding: 50px;
+    text-align: center;
+}
