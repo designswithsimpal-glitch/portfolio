@@ -1,11 +1,15 @@
-# Simpal Portfolio
+# Simpal Raj Portfolio
 
-This is my personal portfolio website.
+Professional portfolio showcasing branding and visual design work.
 
-## Live link
+## Live Website
 (Add your GitHub Pages link here)
 
-## Skills
+## Services
+- Branding Design
+- Visual Identity
 - Graphic Design
-- Book Cover Design
-- Canva / Photoshop
+
+## Tools
+- Canva
+- Photoshop

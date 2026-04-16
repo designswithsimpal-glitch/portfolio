@@ -1,45 +1,80 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background: #0f0f0f;
+    font-family: 'Poppins', sans-serif;
+    background: #0d0d0d;
     color: white;
 }
 
 .hero {
     text-align: center;
-    padding: 100px 20px;
+    padding: 120px 20px;
 }
 
 .hero h1 {
-    font-size: 50px;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.title {
+    font-size: 20px;
+    color: #aaa;
+}
+
+.tagline {
+    margin: 10px 0 20px;
+    color: #ccc;
 }
 
 .hero button {
-    padding: 10px 20px;
-    background: purple;
+    padding: 12px 25px;
+    background: linear-gradient(45deg, purple, violet);
     border: none;
     color: white;
+    border-radius: 25px;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero button:hover {
+    transform: scale(1.05);
 }
 
 .projects {
-    padding: 50px;
+    padding: 80px 20px;
     text-align: center;
 }
 
+.projects h2 {
+    margin-bottom: 40px;
+}
+
 .card {
-    background: #1c1c1c;
+    background: #1a1a1a;
     padding: 20px;
     margin: 20px;
     display: inline-block;
-    border-radius: 10px;
+    width: 280px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
 }
 
 .card img {
     width: 100%;
+    border-radius: 10px;
 }
 
-.about, .contact {
-    padding: 50px;
+.about {
+    padding: 80px 20px;
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+}
+
+.contact {
+    padding: 60px 20px;
     text-align: center;
 }
