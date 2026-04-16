@@ -2,14 +2,13 @@
 
 Professional portfolio showcasing branding and visual design work.
 
-## Live Website
-(Add your GitHub Pages link here)
-
 ## Services
-- Branding Design
-- Visual Identity
-- Graphic Design
+- Poster Design
+- Ad Design
+- Logo Design
+- Business Card Design
 
 ## Tools
 - Canva
-- Photoshop
+- Adobe Express
+- Figma

@@ -12,31 +12,29 @@ body {
 
 .hero h1 {
     font-size: 60px;
-    font-weight: 600;
 }
 
 .title {
-    font-size: 20px;
     color: #aaa;
 }
 
 .tagline {
-    margin: 10px 0 20px;
     color: #ccc;
+    margin: 10px 0 20px;
 }
 
 .hero button {
     padding: 12px 25px;
     background: linear-gradient(45deg, purple, violet);
     border: none;
-    color: white;
     border-radius: 25px;
+    color: white;
     cursor: pointer;
     transition: 0.3s;
 }
 
 .hero button:hover {
-    transform: scale(1.05);
+    transform: scale(1.08);
 }
 
 .projects {
@@ -44,16 +42,12 @@ body {
     text-align: center;
 }
 
-.projects h2 {
-    margin-bottom: 40px;
-}
-
 .card {
     background: #1a1a1a;
     padding: 20px;
     margin: 20px;
     display: inline-block;
-    width: 280px;
+    width: 260px;
     border-radius: 15px;
     transition: 0.3s;
 }
