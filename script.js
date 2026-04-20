@@ -1,1 +1,1 @@
-console.log('Graphic Portfolio Loaded');
+console.log("Pro Portfolio Ready");
