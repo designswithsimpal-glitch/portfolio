@@ -6,41 +6,89 @@
 }
 
 body {
-  background: linear-gradient(135deg, #3b82f6, #7c3aed);
+  background: #0f172a;
   color: white;
 }
 
-header {
+/* HERO */
+.hero {
   text-align: center;
-  padding: 60px 20px;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #3b82f6, #7c3aed);
 }
 
-header h1 {
+.hero h1 {
   font-size: 42px;
 }
 
-.portfolio {
-  padding: 40px;
+.hero p {
+  margin: 10px 0;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+/* SECTIONS */
+section {
+  padding: 60px 20px;
   text-align: center;
 }
 
+/* SERVICES */
+.service-box {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.service-box div {
+  background: #1e293b;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+/* PORTFOLIO */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
 }
 
-.grid img {
-  width: 100%;
+.card {
+  position: relative;
+  overflow: hidden;
   border-radius: 15px;
-  transition: 0.3s;
 }
 
-.grid img:hover {
-  transform: scale(1.08);
+.card img {
+  width: 100%;
 }
 
-footer {
+.overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.7);
   text-align: center;
-  padding: 20px;
+  padding: 10px;
 }
+
+/* CONTACT */
+.contact {
+  background: #1e293b;
+}
+
+/* FOOTER */
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
